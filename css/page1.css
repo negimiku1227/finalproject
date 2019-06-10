@@ -7,12 +7,26 @@
     body{
         max-width: 1200px;
         margin: auto;
+        font-family: n;
+        background-color: rgb(8, 85, 27);
     }
 
-    
-    .photo{
-        margin: 50px;
+    article{
+        font-size: 80px;
+        text-align: center;
+        margin-top: 50px;
+        color: white;
     }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        float: left;
+        margin-left: 170px;
+    }
+    
 }
 
 

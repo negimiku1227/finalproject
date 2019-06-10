@@ -1,0 +1,21 @@
+@media screen{
+    @font-face {
+        font-family: 'n';
+        src: url("../UDDigiKyokashoN-B.ttc");
+    }
+
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    
+    .photo{
+        margin: 50px;
+    }
+    .shadow{
+    text-shadow: 2px -4px 3px #333333;
+    }
+}
+
+
