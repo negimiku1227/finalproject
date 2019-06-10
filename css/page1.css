@@ -5,17 +5,23 @@
     }
 
     body{
-        max-width: 1200px;
+        max-width: 1196px;
         margin: auto;
         font-family: n;
         background-color: rgb(8, 85, 27);
     }
 
     article{
+        
+        height: 596px;
         font-size: 80px;
         text-align: center;
-        margin-top: 50px;
         color: white;
+    }
+
+    .title{
+        position: relative;
+        top: 50px;
     }
 
     ul{
@@ -23,6 +29,8 @@
     }
 
     li{
+        position: relative;
+        top: 50px;
         float: left;
         margin-left: 170px;
     }
