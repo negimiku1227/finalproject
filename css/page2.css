@@ -1,0 +1,32 @@
+@media screen{
+
+    @font-face {
+        font-family: 'n';
+        src: url("../GenSenMaruGothicJP-Bold.ttf");
+    }
+    
+    body{
+        max-width: 1196px;
+        margin: auto;
+        font-family: n;
+        background-color: rgb(231, 212, 100);
+    }
+
+    article{
+        width: 600px;
+        border: 2px solid black;
+        position: relative;
+        font-size: 40px;
+        left: 300px;
+        top: 50px;
+        text-align: center;
+    }
+
+    .pic{
+        width: 200px;
+        height: 223px;
+        position: relative;
+        left: 700px;
+        top: 100px;
+    }
+}
