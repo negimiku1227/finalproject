@@ -47,6 +47,15 @@
         
         
     }
+    .leftw{
+        float: left;
+        width: 150px;
+        position: relative;
+        left: 300px;
+    }
+    .purple{ 
+        color:rgba(143, 11, 158, 0.5); 
+    }
     
 }
 
