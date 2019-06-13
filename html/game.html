@@ -8,12 +8,29 @@
     <script src="../js/game.js"></script>
 </head>
 <body>
-    <input type="button" value="click" onclick="show()">
-    <input type="text" id = "answer">
-    <input type="button" value="check" onclick="checkanswer()">
-    <input type="button" value="get hint" onclick="addhint()">
+    <div class="start">
+        <input type = "image" src = "../pic/button_start.png" onclick="show()" id ="sbutton">
+    </div>
+        
+    <div class = "ans">
+        <input type="text" id = "answer" maxlength="3">
+    </div>
+
+    <div class="check">
+        <input type = "image" src = "../pic/submitanswer.png" onclick="checkanswer()">
+    </div>
+
+    <div class="addhint">
+        <input type = "image" src = "../pic/plushint.png" onclick="addhint()">
+    </div>
+
     <div class="showhint">
-        <span id = "hint"></span>
+        提示一：<span id = "hint"></span><br>
+        提示二：<span id = "hint2"></span><br>
+        提示三：<span id = "hint3"></span>
+    </div>
+    <div class="showscore">
+        score : <span id = "score">0</span>
     </div>
 </body>
 >>>>>>> a7d0d212cbd7ddbf94a23de2789258443173225d
