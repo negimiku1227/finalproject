@@ -7,7 +7,7 @@ var hint5 = ["應用密碼學","我這一刀下去，半個班消失了","專題
 
 var nowhint = [];
 var hintmessage = "";
-var arrnum, score, question, hinttry = 0;
+var arrnum, score, question, hinttry;
 var startgame = false;
 var ans;
 function show(){
@@ -15,9 +15,8 @@ function show(){
     document.getElementById("sbutton").src = "../pic/button_restart.png";
     teacher = ["汪柏","洪智傑","陳建彰","蔡憶佳","黃心嘉"];
     nowhint = [];
-    question = 0;
-    arrnum = 0;
-    score = 0;
+    question = hinttry = arrnum = score = 0;
+    
     teacher.sort(
         function(){
             return Math.random()>0.5?-1:1; /* 將每個變數賦予0~1之隨機值， 並與0.5比較大小。
@@ -48,6 +47,8 @@ function show(){
     console.log(nowhint);
     document.getElementById("score").innerHTML = score;
     document.getElementById("hint").innerHTML = nowhint[0];
+    document.getElementById("hint2").innerHTML = "";
+    document.getElementById("hint3").innerHTML = "";
     
 }
 

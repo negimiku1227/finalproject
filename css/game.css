@@ -13,7 +13,7 @@
 
     .start{
         position: relative;
-        left: 120px;
+        left: 70px;
         top: 150px;
         width: 150px;
         height: 137px;
@@ -29,7 +29,7 @@
 
     .check{
         position: relative;
-        left: 900px;
+        left: 950px;
         bottom: 120px;
         height: 134px;
         width: 80px;
@@ -37,7 +37,7 @@
 
     .addhint{
         position: relative;
-        left: 900px;
+        left: 950px;
         bottom: 100px;
         height: 134px;
         width: 80px;
@@ -45,9 +45,9 @@
     
     .showhint{
         position: relative;
-        left: 350px;
+        left: 300px;
         bottom: 400px;
-        width: 500px;
+        width: 600px;
         height: 300px;
         border: 2px solid black;
         text-align: center;
