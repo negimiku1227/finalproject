@@ -1,13 +1,9 @@
 @media screen{
 
     body{
-        max-width: 1200px;
+        max-width: 1196px;
         margin: auto;
     }
     
-    header{
-        background-color: coral;
-        max-width: 1200px;
-        height: 100px;
-    }
+    
 }

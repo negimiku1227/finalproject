@@ -37,6 +37,11 @@
         color: black;
     }
 
+    #title{
+        position: relative;
+        top: 50px;
+    }
+
     .home{
         font-size: 33px;
         line-height: 60px;

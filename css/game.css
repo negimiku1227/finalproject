@@ -23,19 +23,24 @@
     .ans{
         position: relative;
         left: 400px;
-        top: 270px;
+        top: 265px;
+        width: 140px;
     }
 
     .check{
         position: relative;
         left: 900px;
         bottom: 120px;
+        height: 134px;
+        width: 80px;
     }
 
     .addhint{
         position: relative;
         left: 900px;
         bottom: 100px;
+        height: 134px;
+        width: 80px;
     }
     
     .showhint{

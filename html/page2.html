@@ -5,16 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../css/page2.css" rel="stylesheet">
+    <script src="../js/page2.js"></script>
 </head>
 <body>
-    <article>
-        各位都瞭解資工系的教授嗎？</br>
-        來玩個小遊戲測驗看看吧！
+    <article id = "r">
+        <span id = "rule">各位都瞭解資工系的教授嗎？</span></br>
+        <span id = "rule2">來玩個小遊戲測驗看看吧！</span></br>
+        <span id = "rule3"></span></br>
+        <span id = "rule4"></span></br>
+        <span id = "rule5"></span>
     </article>
+
+    <div class = picleft>
+        <ul>
+            <li><img src="../pic/teacher2.png"></li>
+            <li><input type = "image" src = "../pic/readrule.png" onclick="showrule()"></li>
+            
+        </ul>
+    </div>
     
-   
-    <div class="pic">
-        <a href= "game.html"><img src="../pic/teacher.png"></a>
+    <div class = picright>
+        <ul>
+            <li><a href= "game.html"><img src = "../pic/playgame.png"></a></li>
+            <li><img src="../pic/teacher.png"></li>
+        </ul>
+    
     </div>
 
 </body>
